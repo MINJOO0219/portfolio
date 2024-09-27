@@ -1,0 +1,58 @@
+@media screen and (max-width: 900px){
+    .header{
+        left:15px;
+        right:15px;
+        top:11px;
+        .logo_section{
+            img{
+                width:66px;
+            }
+        }
+        .main_menu{
+            display:none;
+        }
+        .mobile_menu{
+            display:block;
+            font-size:16px;
+            font-weight:500;
+        }
+    }
+    .main{
+        .main_title{
+            padding:103px 15px 0px;
+            font-size:4.85vw;
+            line-height: 5vw;
+            br{
+                display:none;
+            }
+        }
+        .company_info{
+            font-size:14px;
+            margin-top:33px;
+            padding:0px 15px;
+            .ci_right_section{
+                width:50%;
+                gap:18px;
+            }
+        
+        }
+        .main_img{
+            margin-top:10px;
+            padding:15px 15px 0px;
+            .main_copy{
+                font-size:14px;
+                line-height: 19px;
+                width:100%;
+                padding:0px;
+
+                br{
+                    display:none;
+                }
+            }
+        }
+        .arrow{
+            width:35px;
+            left:calc(50% - 17.5px);
+        }
+    }
+}

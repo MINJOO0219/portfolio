@@ -1,0 +1,52 @@
+@media screen and (max-width: 900px) {
+  .header {
+    left: 15px;
+    right: 15px;
+    top: 11px;
+  }
+  .header .logo_section img {
+    width: 66px;
+  }
+  .header .main_menu {
+    display: none;
+  }
+  .header .mobile_menu {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .main .main_title {
+    padding: 103px 15px 0px;
+    font-size: 4.85vw;
+    line-height: 5vw;
+  }
+  .main .main_title br {
+    display: none;
+  }
+  .main .company_info {
+    font-size: 14px;
+    margin-top: 33px;
+    padding: 0px 15px;
+  }
+  .main .company_info .ci_right_section {
+    width: 50%;
+    gap: 18px;
+  }
+  .main .main_img {
+    margin-top: 10px;
+    padding: 15px 15px 0px;
+  }
+  .main .main_img .main_copy {
+    font-size: 14px;
+    line-height: 19px;
+    width: 100%;
+    padding: 0px;
+  }
+  .main .main_img .main_copy br {
+    display: none;
+  }
+  .main .arrow {
+    width: 35px;
+    left: calc(50% - 17.5px);
+  }
+}/*# sourceMappingURL=day6_m.css.map */

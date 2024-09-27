@@ -1,0 +1,132 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+ul, li, input, button, select {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header {
+  mix-blend-mode: difference;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 30px;
+  top: 16px;
+  right: 30px;
+}
+.header .main_menu {
+  display: flex;
+  font-size: 22px;
+  gap: 20px;
+  font-weight: 500;
+}
+.header .mobile_menu {
+  display: none;
+}
+
+.main {
+  width:100%;
+  overflow: hidden;
+}
+.main .main_title {
+        width: 100%;
+        padding-top:170px;
+        margin-bottom: 170px;
+        width:100000px;
+        font-size: 4vw;
+        line-height: 4.5vw;
+        font-weight:450;
+        animation:aniani 30s infinite linear;
+}
+
+@keyframes aniani {
+  0%{
+      transform:translateX(0px);
+  }
+
+  100%{
+      transform:translateX(-4000px);
+  }
+    }
+.main .company_info {
+  margin-top: 125px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.main .company_info .ci_right_section {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10%;
+}
+.main .main_img {
+  height: 1000px;
+  background: url("./img/main_back.jpg");
+  background-size: cover;
+  margin-top: 25px;
+}
+.main .main_img .main_copy {
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 32px;
+  padding-left: 30px;
+  color: #fff;
+  width: 510px;
+  word-break: keep-all;
+}
+.main .arrow {
+  position: fixed;
+  bottom: 20px;
+  left: calc(50% - 35px);
+  z-index: 1;
+}
+
+.project_items {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.project_items .pr_item {
+  width: 33.3%;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.project_items .pr_item:hover .pr_img img {
+  transform: scale(1.1);
+}
+.project_items .pr_item .pr_info {
+  position: absolute;
+  top: 20px;
+  left: 0%;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 10;
+}
+.project_items .pr_item .pr_img img {
+  transition-duration: 0.3s;
+  width: 100%;
+  display: block;
+}/*# sourceMappingURL=day6.css.map */
